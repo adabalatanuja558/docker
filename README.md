@@ -1,47 +1,37 @@
-# docker
 # 🐳 Docker Learning & Documentation
 
 This repository documents my **hands-on learning journey in Docker and containerization** as part of my DevOps preparation.
-
-It includes structured notes, architecture explanations, Dockerfile concepts, and practical command usage.
 
 ---
 
 ## 📚 Repository Contents
 
-### 📄 1. Docker Introduction.docx
+### 📄 1. [Docker Introduction](./Docker%20Introduction.docx)
 - Basics of Docker  
 - What is containerization  
-- Why Docker is used  
-- Real-world problem (Dev vs Prod issue)  
-- Key concepts like images, containers, registry  
+- Real-world problem (Dev vs Prod)  
+- Images, containers, registry  
 
 ---
 
-### 📄 2. docker class 2 architecture.docx
-- Detailed Docker Architecture  
-- Docker Client, Host, and Registry  
+### 📄 2. [Docker Architecture](./docker%20class%202%20architecture.docx)
+- Docker Client, Host, Registry  
 - Workflow explanation  
-- How Docker components interact  
+- How components interact  
 
 ---
 
-### 📄 3. Dockerfile COMPONENTS class 3.docx
-- Dockerfile fundamentals  
-- Instructions like:
-  - FROM  
-  - RUN  
-  - CMD  
-  - COPY  
-  - EXPOSE  
-- How to build custom images  
+### 📄 3. [Dockerfile Components](./Dockerfile%20COMPONENTS%20class%203.docx)
+- Dockerfile instructions  
+- FROM, RUN, CMD, COPY, EXPOSE  
+- Building custom images  
 
 ---
 
-### 📄 4. README.md
-- Summary of Docker concepts  
-- Interview questions & answers  
+### 📄 4. [README Summary](./README.md)
+- Interview questions  
 - Basic commands  
+- Quick revision  
 
 ---
 
@@ -50,7 +40,6 @@ It includes structured notes, architecture explanations, Dockerfile concepts, an
 - Containerization  
 - Docker Architecture  
 - Images vs Containers  
-- Docker Registry  
 - Dockerfile  
 - Container lifecycle  
 
@@ -60,20 +49,15 @@ It includes structured notes, architecture explanations, Dockerfile concepts, an
 
 - Pulled images from Docker Hub  
 - Created and managed containers  
-- Used port mapping  
-- Checked logs and debugging  
-- Practiced real-time Docker commands  
+- Port mapping  
+- Logs & debugging  
 
 ---
 
-## 💻 Important Docker Commands
+## 💻 Important Commands
 
 ```bash
 docker pull nginx
 docker run -d -p 8080:80 nginx
 docker ps
-docker ps -a
-docker stop <container_id>
-docker start <container_id>
 docker logs <container_id>
-docker exec -it <container_id> bash
