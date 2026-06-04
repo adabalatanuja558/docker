@@ -10,7 +10,7 @@ This repository documents my **hands-on learning journey in Docker and container
 - Basics of Docker  
 - What is containerization  
 - Real-world problem (Dev vs Prod)  
-- Images, containers, registry  
+- Images, containers, registry 
 
 ---
 
